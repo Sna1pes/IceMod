@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "icemod",
+	"version": "${version}",
+	"name": "Ice Mod",
+	"description": "Ice weapons mod",
+	"authors": [
+		"Sna1pes"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.icemod.IceMod"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
