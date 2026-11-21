@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "minecraft:packed_ice",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "icemod:ice_mace",
+    "count": 1
+  }
+}
